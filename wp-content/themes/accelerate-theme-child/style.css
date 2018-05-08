@@ -1,17 +1,26 @@
 /*
 Theme Name:   Accelerate Theme Child
-Theme URI:    http://example.com/accelerate-theme-child/
+Theme URI:    http://localhost:8898/accelerate-theme-child/
 Description:  Accelerate Child Theme - Accelerate
-Author:   	Your Name!
-Author URI:   http://example.com
+Author:   	Nicole D'Augereaux
+Author URI:   http://localhost:8898/accelerate
 Template: 	accelerate-theme
 Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  accelerate-theme-child
 */
-1
-2
-3
-body {
-	background: red;
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+    text-align: center;
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+   background: none repeat scroll 0 0 #45ac9d;
 }
